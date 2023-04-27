@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-descripcion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.consulta {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 1em;
+    padding-right: 0px;
+    border-block-start: #1b1b1b;
+    background-color: rgb(251, 212, 218);
+}
+
+.navbar {
+    background-color: rgb(251, 212, 218);
+}
+
+/* Consultas Whatsapp */
+
+.consulta-mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.imagen-consulta {
+    width: 10rem;
+    cursor: pointer;
+}
+
+.texto-consulta {
+    width: auto;
+    margin-top: 4rem;
+}
