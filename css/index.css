@@ -5,9 +5,11 @@
 /* NavBar */
 
 .navbar {
-    background-color: rgb(183, 241, 221); /*Revisar que github tome la actualizacion de color*/
+    background-color: rgb(183, 241, 221);
+    /*Revisar que github tome la actualizacion de color*/
 
 }
+
 .navbar-brand {
     width: 8rem;
     margin: 0;
@@ -81,5 +83,45 @@ footer {
     padding: 1em;
     padding-right: 0px;
     border-block-start: #1b1b1b;
-    background-color: rgb(183, 241, 221); /*Revisar que github tome la actualizacion de color*/
+    background-color: rgb(183, 241, 221);
+    /*Revisar que github tome la actualizacion de color*/
+}
+
+/*Contacto*/
+.b-contacto {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.b-contacto ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    /*Logos de redes sociales*/
+}
+
+@media screen and (max-width: 480px) {
+    .b-contacto ol {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .b-contacto ol {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.b-contacto ol img {
+    display: block;
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
 }
