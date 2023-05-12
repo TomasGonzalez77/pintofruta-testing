@@ -30,7 +30,6 @@
 .main {
     height: 100%;
     width: 100%;
-    margin-top: 2rem;
     margin-bottom: 2rem;
     box-sizing: border-box;
 }
@@ -76,14 +75,16 @@
 /* Footer */
 
 footer {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    padding: 1em;
     padding-right: 0px;
     border-block-start: #1b1b1b;
     background-color: rgb(183, 241, 221);
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     /*Revisar que github tome la actualizacion de color*/
 }
 
@@ -124,4 +125,22 @@ footer {
     width: 70px;
     margin: 10px;
     padding: 10px;
+}
+
+/* Definimos el estilo para el encabezado (título) */
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Definimos el estilo para los párrafos */
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
