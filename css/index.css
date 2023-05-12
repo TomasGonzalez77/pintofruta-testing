@@ -76,16 +76,13 @@
 
 footer {
     display: flex;
-    justify-content: center;
     align-self: flex-end;
-    padding-right: 0px;
-    border-block-start: #1b1b1b;
+    justify-content: center;
     background-color: rgb(183, 241, 221);
     padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    /*Revisar que github tome la actualizacion de color*/
 }
 
 /*Contacto*/
