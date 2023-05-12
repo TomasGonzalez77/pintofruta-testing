@@ -2,6 +2,37 @@
     box-sizing: border-box;
 }
 
+/* NavBar */
+
+.navbar {
+    background-color: rgb(183, 241, 221);
+}
+
+.navbar-brand {
+    width: 8rem;
+    margin: 0;
+    padding: 0;
+    height: 5rem;
+}
+
+.offcanvas-header {
+    background-color: rgb(183, 241, 221);
+}
+
+.offcanvas-img {
+    width: 22rem;
+}
+
+/* Main */
+
+.main {
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+
 .banner {
     width: 100%;
     display: flex;
@@ -18,30 +49,6 @@
 .consulta {
     display: flex;
     flex-direction: column;
-}
-
-.main {
-    height: 100%;
-    width: 100%;
-    margin-top: 2rem;
-    margin-top: 2rem;
-    box-sizing: border-box;
-
-}
-
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-    padding: 1em;
-    padding-right: 0px;
-    border-block-start: #1b1b1b;
-    background-color: rgb(251, 212, 218);
-}
-
-.navbar {
-    background-color: rgb(251, 212, 218);
 }
 
 /* Consultas Whatsapp */
@@ -62,4 +69,17 @@ footer {
 .texto-consulta {
     width: auto;
     margin-top: 4rem;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 1em;
+    padding-right: 0px;
+    border-block-start: #1b1b1b;
+    background-color: rgb(183, 241, 221);
 }
