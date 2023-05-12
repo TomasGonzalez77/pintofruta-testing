@@ -5,10 +5,9 @@
 /* NavBar */
 
 .navbar {
-    background-color: rgb(183, 241, 221);
-    
-}
+    background-color: rgb(183, 241, 221); /*Revisar que github tome la actualizacion de color*/
 
+}
 .navbar-brand {
     width: 8rem;
     margin: 0;
@@ -82,5 +81,5 @@ footer {
     padding: 1em;
     padding-right: 0px;
     border-block-start: #1b1b1b;
-    background-color: rgb(183, 241, 221);
+    background-color: rgb(183, 241, 221); /*Revisar que github tome la actualizacion de color*/
 }
