@@ -1,3 +1,4 @@
+//revisar en github porque se elimino el alert
 function enviarConsulta() {
     // Obtener los datos del formulario
     const nombre = document.querySelector('input[name="nombre"]').value;
