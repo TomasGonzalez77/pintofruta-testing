@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 /* NavBar */
 
 .navbar {
@@ -72,7 +73,7 @@
     margin-top: 4rem;
 }
 
-.logo-paginas{
+.logo-paginas {
     width: 12rem;
     /*importante verificar el tamaño en github*/
 }
@@ -145,4 +146,32 @@ p {
     margin-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/*Productos*/
+
+.row{}
+
+.seccion {
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 16px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.descripcion {
+    display: none;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-top: 5px;
 }
