@@ -148,29 +148,92 @@ p {
     padding-right: 20px;
 }
 
-/*Productos*/
 
-
-.seccion {
-    width: 200px;
-    display: inline-block;
+/*Complejos*/
+.complejos {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
     margin: 10px;
-    cursor: pointer;
-    text-align: center;
-    padding-top: 80px;
-    font-size: 16px;
-}
-
-.producto {
-    border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.descripcion {
-    display: none;
-    background-color: #f8f8f8;
+    background-color: transparent;
+  }
+  @media screen and (max-width: 1440) {
+    .complejos {
+      display: flex;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1024) {
+    .complejos {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .complejos {
+      display: flex;
+      flex-direction: column;
+      max-width: 760px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .complejos {
+      max-width: 480px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .complejos {
+      max-width: 367px;
+    }
+  }
+  .complejos img {
+    display: flex;
+    width: 500px;
+  }
+  @media screen and (min-width: 1440px) {
+    .complejos img {
+      width: 700px;
+    }
+  }
+  @media screen and (max-width: 1024) {
+    .complejos img {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .complejos img {
+      width: auto;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .complejos img {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .complejos img {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .complejos img {
+      display: none;
+    }
+  }
+  .complejos ul {
+    margin: 10px;
     padding: 10px;
-    margin-top: 5px;
-}
+    /*a pertenecientes a las direcciones de los clubes y los button con sus redirecciones para encontrar las paginas web"*/
+  }
+  .complejos ul a {
+    padding: 0;
+    margin: 0;
+    color: #000;
+  }
+  .complejos ul button {
+    width: 100px;
+  }
