@@ -1,239 +1,359 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
 /* NavBar */
 
 .navbar {
-    background-color: rgb(183, 241, 221);
-    /*Revisar que github tome la actualizacion de color*/
+  background-color: rgb(183, 241, 221);
+  /*Revisar que github tome la actualizacion de color*/
 
 }
 
 .navbar-brand {
-    width: 8rem;
-    margin: 0;
-    padding: 0;
-    height: 5rem;
+  width: 8rem;
+  margin: 0;
+  padding: 0;
+  height: 5rem;
 }
 
 .offcanvas-header {
-    background-color: rgb(183, 241, 221);
+  background-color: rgb(183, 241, 221);
 }
 
 .offcanvas-img {
-    width: 22rem;
+  width: 22rem;
 }
 
 /* Main */
 
 .main {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 2rem;
-    box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 2rem;
+  justify-content: center;
 }
 
 .banner {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .banner-descripcion {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .consulta {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Consultas Whatsapp */
 
 .consulta-mensaje {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
 }
 
 .imagen-consulta {
-    width: 10rem;
-    cursor: pointer;
+  width: 10rem;
+  cursor: pointer;
 }
 
 .texto-consulta {
-    width: auto;
-    margin-top: 4rem;
+  width: auto;
+  margin-top: 4rem;
 }
 
 .logo-paginas {
-    width: 12rem;
-    /*importante verificar el tamaño en github*/
+  width: 12rem;
+  /*importante verificar el tamaño en github*/
 }
 
 /* Footer */
 
 footer {
-    display: flex;
-    align-self: flex-end;
-    justify-content: center;
-    background-color: rgb(183, 241, 221);
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  background-color: rgb(183, 241, 221);
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /*Contacto*/
 .b-contacto {
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 
 .b-contacto ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 80%;
-    width: 80%;
-    padding: 10px;
-    margin: 10px;
-    /*Logos de redes sociales*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  /*Logos de redes sociales*/
 }
 
 @media screen and (max-width: 480px) {
-    .b-contacto ol {
-        display: flex;
-        flex-direction: column;
-    }
+  .b-contacto ol {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .b-contacto ol {
-        display: flex;
-        flex-direction: column;
-    }
+  .b-contacto ol {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .b-contacto ol img {
-    display: block;
-    width: 70px;
-    margin: 10px;
-    padding: 10px;
+  display: block;
+  width: 70px;
+  margin: 10px;
+  padding: 10px;
 }
 
 /* Definimos el estilo para el encabezado (título) */
 h1 {
-    font-size: 2em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Definimos el estilo para los párrafos */
 p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
 /*Complejos*/
 .complejos {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1440) {
+  .complejos {
     display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    background-color: transparent;
+    width: 100%;
   }
-  @media screen and (max-width: 1440) {
-    .complejos {
-      display: flex;
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 1024) {
+  .complejos {
+    width: 100%;
   }
-  @media screen and (max-width: 1024) {
-    .complejos {
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .complejos {
+    display: flex;
+    flex-direction: column;
+    max-width: 760px;
   }
-  @media screen and (max-width: 768px) {
-    .complejos {
-      display: flex;
-      flex-direction: column;
-      max-width: 760px;
-    }
+}
+
+@media screen and (max-width: 480px) {
+  .complejos {
+    max-width: 480px;
   }
-  @media screen and (max-width: 480px) {
-    .complejos {
-      max-width: 480px;
-    }
+}
+
+@media screen and (max-width: 375px) {
+  .complejos {
+    max-width: 367px;
   }
-  @media screen and (max-width: 375px) {
-    .complejos {
-      max-width: 367px;
-    }
+}
+
+.complejos img {
+  display: flex;
+  width: 500px;
+}
+
+@media screen and (min-width: 1440px) {
+  .complejos img {
+    width: 700px;
   }
+}
+
+@media screen and (max-width: 1024) {
+  .complejos img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .complejos img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .complejos img {
     display: flex;
-    width: 500px;
+    flex-direction: column;
+    width: auto;
   }
-  @media screen and (min-width: 1440px) {
-    .complejos img {
-      width: 700px;
-    }
+}
+
+@media screen and (max-width: 375px) {
+  .complejos img {
+    display: flex;
+    flex-direction: column;
+    width: auto;
   }
-  @media screen and (max-width: 1024) {
-    .complejos img {
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .complejos img {
+    display: none;
   }
-  @media screen and (max-width: 768px) {
-    .complejos img {
-      width: auto;
-    }
+}
+
+.complejos ul {
+  margin: 10px;
+  padding: 10px;
+  /*a pertenecientes a las direcciones de los clubes y los button con sus redirecciones para encontrar las paginas web"*/
+}
+
+.complejos ul a {
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+.complejos ul button {
+  width: 100px;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/**Productos**/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para la navegación */
+.navbar {
+  background-color: #333;
+  color: white;
+}
+
+.navbar-brand {
+  padding: 10px 0;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/* Estilos para la sección principal */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seccion {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+/* Estilos para las imágenes dentro de las secciones */
+.seccion img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Escala de las imágenes al pasar el ratón */
+.seccion img:hover {
+  transform: scale(1.2);
+  /* Ajusta el valor para la escala deseada */
+  transition: transform 0.3s;
+  /* Agrega una transición suave para el efecto */
+}
+
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 10px;
   }
-  @media screen and (max-width: 480px) {
-    .complejos img {
-      display: flex;
-      flex-direction: column;
-      width: auto;
-    }
+
+  .seccion {
+    flex: 0 0 100%;
   }
-  @media screen and (max-width: 375px) {
-    .complejos img {
-      display: flex;
-      flex-direction: column;
-      width: auto;
-    }
+}
+
+/* Estilos para el navbar flotante a partir de 700px */
+@media (min-width: 700px) {
+  .navbar-float {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
   }
-  @media screen and (max-width: 320px) {
-    .complejos img {
-      display: none;
-    }
-  }
-  .complejos ul {
-    margin: 10px;
-    padding: 10px;
-    /*a pertenecientes a las direcciones de los clubes y los button con sus redirecciones para encontrar las paginas web"*/
-  }
-  .complejos ul a {
-    padding: 0;
-    margin: 0;
-    color: #000;
-  }
-  .complejos ul button {
-    width: 100px;
-  }
+}
