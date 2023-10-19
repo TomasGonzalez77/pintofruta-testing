@@ -3,6 +3,91 @@
 }
 
 
+/*INICIO*/
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para la navegación */
+.navbar {
+  background-color: #333;
+  color: white;
+}
+
+.navbar-brand {
+  padding: 10px 0;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/* Estilos para la sección principal */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seccion {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+/* Estilos para las imágenes dentro de las secciones */
+.seccion img {
+  max-width: 100%;
+  height: auto;
+  transition: 1,4rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 10px;
+  }
+
+  .seccion {
+    flex: 0 0 100%;
+  }
+}
+
+/* Estilos para el navbar flotante a partir de 700px */
+@media (min-width: 700px) {
+  .navbar-float {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+}
+
+
+
 /* NavBar */
 
 .navbar {
@@ -444,4 +529,95 @@ footer {
       /* Las imágenes también ocuparán todo el ancho */
     }
   }
+}
+
+/*Cosmeticos*/
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Cambia el color de fondo a tu elección */
+}
+
+/* Navegación */
+.navbar {
+  background-color: rgb(183, 241, 221);
+}
+
+.navbar-brand {
+  width: 8rem;
+  margin: 0;
+  padding: 0;
+  height: 5rem;
+}
+
+.offcanvas-header {
+  background-color: rgb(183, 241, 221);
+}
+
+.offcanvas-img {
+  width: 22rem;
+}
+
+/* Contenido principal */
+.main {
+  width: 100%;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Imágenes */
+.img-complejos {
+  max-width: 100%; /* Asegura que las imágenes se ajusten al ancho de la pantalla */
+
+  /* Transición para hacerlas más grandes al pasar el ratón */
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-complejos:hover {
+  transform: scale(1.1); /* Hace que las imágenes se agranden al pasar el ratón */
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  background-color: rgb(183, 241, 221);
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media queries para dispositivos más pequeños */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 6rem;
+    height: 4rem;
+  }
+
+  .offcanvas-img {
+    width: 18rem;
+  }
+
+  /* Ajusta otros estilos para dispositivos más pequeños según sea necesario */
 }
